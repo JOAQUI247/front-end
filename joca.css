@@ -1,0 +1,57 @@
+/* Estilizando o corpo da página */
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif/* definindo fonte */ 
+    background-color rgb(255, 242, 168)
+/* cor do fundo*/
+margin  0; /* remove as mensagens */ 
+padding: 0;/*remove o escapamento interno */
+display: flex;/* utilizando os sistemas de layout flexivel*/
+justify-content: center;/*centralizando horizontamente */
+align-items: center;
+height: 100px; 
+
+}
+/*estilizando para conteiner principal*/
+.container{
+text-align:center;/*centraliza o texto dentro do conteiner*/
+background-color: #c35050; /* fundo aqua para o conteiner */
+padding: 20px; /*esçamento interno do conteiner */
+border-radius:0 0 10px rgb(32, 128, 123); /* borda arredondada */
+box-shadow:0 0 10px rgb(0, 0, 0); /* sombra leve ao redor do conteiner */
+}
+
+/* Estilo para o titulo da pagina */
+h1 {
+color: #4CAF50; /* cor verde para o titulo */
+}
+
+/*estilo para o campo de entrada de texto */
+input {
+    padding: 10px; /* espaçamento interno do botão */
+    width: 60%; /* Largura do campo em relação ao conteiner */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    border: 1px solid #CCC; /* Borda cinza clara */
+    border-radius: 5px;/* Borda arredondada */
+}
+
+/* Estilo para o botão */
+button {
+    padding: 10px 20px;/*Espaçamento interno do botão */
+    background-color: #4CAF50; /* cor de fundo verde */
+    color:white; /* Cor do texto branco */
+    border: none; /* Remove a borda padrão */
+    border-radius: 12px; /* Borda arredondada */
+    cursor: pointer; /*muda o cursor para "Mãozinha" ao passar sobre o botão */
+}
+
+/*Efeito de hover ao passar ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #4CAF50; /* cor ligeiramente diferente ao passar o mouse */
+}
+
+/* Estilo para a area onde as girias serão exibidas */
+#resultados {
+    margin-top: 20px; /*espaçamento superior */
+    font-size: 18px; /* Tamanho da fonte para o texto*/
+    color: #333; /* cor do textocinza escuro */
+    }

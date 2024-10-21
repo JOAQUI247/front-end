@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(228, 167, 87);">
+   <!--governo digital-->    
+<article>
+     <h2>saiba mais clicando no botao abaixo</h2>
+     <h2><br>
+        <center>
+         <!-- inicio do formulario com metodo POST-->
+  <form action="/submit" method="post">
+    <!-- campo de texto para o nome do usuario -->
+     <label for="name">name:</label>
+     <input type="text" id="name" name="name"></br>
+     <label for="Email" >Email:</label>
+     <input type="email" id="email" name="email" 
+     placeholder="exemplo@domingo.com" ><br>
+     <!--campo de senha-->
+     <input type="password" id="senha" name="senha"></br>  <!--campo
+     para entrada da senha, texto oculto por segurança!-->
+       <!-- Seleção de genero com opções (dropdowm) -->
+        <label for="genero" >genero:</label><br>
+        <select id="genero" name="genero"> <!--lista suspensa para o usuario escolher o genero -->
+      <option value="masculino">masculino</option><option><br> <!-- opção masculina-->
+      <option value=" feminino">feminino</option><br> <!--opção feminina-->
+      </option value="outros">outros</option></select><br> <!-- outra opção -->
+      <!--botao para envio do formulario-->
+  </form>
+      <button onclick="window.location.href='conteudo1.html';">entrar no site></button>
+    </center>
+</article>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Sixtyfour+Convergence&display=swap');
+ h2 {
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+ }
+body{
+    background-color: darkorchid;
+    align-items: center;
+}
+
+.paragraph {
+    background-color: #00aeff;
+    color: black;
+    padding: 5px;
+}
+   
+#execlusive-title{
+    background-color: rgb(234, 255, 5);
+    color: rgb(255, 255, 115);
+    padding: 10px;
+    font-size: 40px;
+}
+
+.simples-hex{
+    color: black;
+}
+
+.rgb{
+    color: rgb(114, 10, 10);
+}
+
+.rgb{
+    color: cornflowerblue;
+}
+
+.HSL{
+    color:#00aeff
+}
+.altura-largura{
+    height: 200px ; /*altura*/
+    width:100px;
+    background-color: rgba(55, 215, 162, 0.298);
+}
+.borda-esquerda{
+    border-left: 30px solid blue;
+    background-color: palevioletred;
+    padding: 25px;
+  }  
+.borda-inferior{
+    border-bottom: 5px double purple;
+    background-color: lightsalmon;
+    padding: 20px;
+}
+.borda-redondada{
+    border: 10px solid red;
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 15px;
+}
+.margem{
+    margin: 20px;
+    background-color: black;
+}
+.margem-superior{
+    margin-top: 50px;
+    background-color: brown;
+    padding: 10px;
+}
+.margem-shorthand{
+    background-color: #006494;
+    margin: 5px 10px 15px 20px;
+}
+.aliamento-de-texto{
+    text-align: rigth;
+    font-size: 30px;
+    color: blueviolet;
+}
+.container-centro{
+    text-align: center;
+    width: 300px;
+    border: 20px double greenyellow;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-troug{
+    text-decoration: line-through;
+}
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+.italico{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique
+}
+.thin{
+    font-weight: 100px;
+}
+.bold{
+    font-weight: 600px;
+}
+.bolde{
+    font-weight: 900px;
+}
+.inline-box{
+    width: 40px;
+    height: 40px;
+    background-color: darkorange;
+    margin: 10px;
+    display: inline-block;
+}
+.block{
+    background-color: azure;
+    display: block;
+}
+.static{
+    position: static;
+    background-color: green;
+    color: #55a398;
+    width: 100px;
+}
+.relativo{
+    position: relative;
+    background-color: #006494;
+    color: black;
+    width: 100px;
+    height: 200px;
+    top: 100px;
+    left: 40px;
+}
+/* Absolute com Relativo*/
+.container-relativo-absoluto{
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: absolute;
+}
+
+.Absolute1,.Absolute2{
+    width: 300px;                                                                            
+    height: 300px;
+    position: absolute;
+    background-color: aqua;
+}
+.Absolute1{
+    top: 10px;
+    left: 10px;
+}
+.Absolute2{
+    bottom: 10px;
+    right: 10px;
+}
+.Fixo{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    border: 2px solid blue;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+.sticky{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: 2px double green;
+    position: sticky;
+    top: 10px;
+}
+/* Z index*/
+.absolute-3,.absolute3,.absolute5{
+width: 50px;
+height: 50px;
+position: absolute;
+}
+.absolute-3{
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    background-color: cyan;
+}
+.absolute-5{
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+    background-color: cyan;
+}
